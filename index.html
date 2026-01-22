@@ -1,94 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MyBuddy iOS Beta - Coming Soon</title>
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background: linear-gradient(to bottom, #f0f8ff, #ffffff);
-      color: #333;
-      margin: 0;
-      padding: 40px 20px;
-      line-height: 1.6;
-    }
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      text-align: left;
-    }
-    h1 {
-      color: #0066cc;
-      font-size: 2.2em;
-      margin-bottom: 30px;
-      text-align: center; /* keep title centered for emphasis */
-    }
-    p {
-      font-size: 1.1em;
-      margin: 20px 0;
-    }
-    ul {
-      list-style: none;
-      padding-left: 0;
-      margin: 30px 0;
-    }
-    li {
-      margin: 15px 0;
-      font-size: 1.1em;
-    }
-    li strong {
-      color: #0066cc;
-    }
-    a {
-      color: #0066cc;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .emoji {
-      margin-right: 8px;
-      font-size: 1.3em;
-    }
-    .note {
-      font-style: italic;
-      color: #555;
-      margin-top: 40px;
-      font-size: 1em;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MyBuddy iOS Beta - TestFlight Available</title>
+<style>
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: linear-gradient(to bottom, #f0f8ff, #ffffff);
+    color: #333;
+    margin: 0;
+    padding: 40px 20px;
+    line-height: 1.6;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center; /* center everything for better flow */
+}
+h1 {
+    color: #0066cc;
+    font-size: 2.4em;
+    margin-bottom: 20px;
+}
+.testflight-button {
+    display: inline-block;
+    background-color: #0066cc;
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 18px 40px;
+    margin: 30px 0;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 102, 204, 0.3);
+}
+.testflight-button:hover {
+    background-color: #0052a3;
+    transform: translateY(-2px);
+}
+.note {
+    font-style: italic;
+    color: #555;
+    margin: 20px 0;
+    font-size: 1.1em;
+}
+p, ul {
+    font-size: 1.1em;
+    margin: 20px 0;
+    text-align: left;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+li {
+    margin: 15px 0;
+}
+li strong {
+    color: #0066cc;
+}
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.emoji {
+    margin-right: 8px;
+    font-size: 1.3em;
+}
+</style>
 </head>
 <body>
-  <div class="container">
-    <h1>MyBuddy iOS Beta - Coming Soon</h1>
+<div class="container">
+    <h1>MyBuddy iOS Beta</h1>
+
+    <a href="https://testflight.apple.com/join/Zs7TVv9f" class="testflight-button">
+        Install via TestFlight (iOS)
+    </a>
+
+    <p class="note">
+        Tap the button above on your iPhone or iPad to join the beta.<br>
+        You'll need the free TestFlight app from the App Store if you don't have it yet.<br>
+        (Link is live as of January 22, 2026 — if it says "not accepting testers," try again in a few hours as review finalizes.)
+    </p>
 
     <p>Thank you for checking out MyBuddy for the Presidential AI Challenge!</p>
 
-    <p>We're currently in Apple beta review for the iOS TestFlight version (submitted January 20, 2026). Approval typically takes 1–3 days.</p>
-
-    <p>Once live, this page will update with the direct TestFlight install link. In the meantime:</p>
-
+    <p>In the meantime, explore these:</p>
     <ul>
-      <li>
-        <span class="emoji">🌐</span>
-        <strong>Web demo:</strong> 
-        <a href="https://mybuddy-and-me.com">mybuddy-and-me.com</a> 
-        (try the browser version!)
-      </li>
-      <li>
-        <span class="emoji">🤖</span>
-        <strong>Android app:</strong> 
-        <a href="https://expo.dev/accounts/idanow/projects/mybuddy/builds/b80ba9ae-0cd7-4c8b-a078-4197c8dcbf59">Download APK</a> 
-        (sideloading required; enable unknown sources on Android)
-      </li>
-      <li>
-        <span class="emoji">📂</span>
-        <strong>Code mirror:</strong> 
-        <a href="https://github.com/tori2cool/mybuddy-presidential-ai-challenge">GitHub repo</a>
-      </li>
+        <li>
+            <span class="emoji">🌐</span>
+            <strong>Web demo:</strong>
+            <a href="https://mybuddy-and-me.com">mybuddy-and-me.com</a>
+            (try the browser version!)
+        </li>
+        <li>
+            <span class="emoji">🤖</span>
+            <strong>Android app:</strong>
+            <a href="https://expo.dev/accounts/idanow/projects/mybuddy/builds/b80ba9ae-0cd7-4c8b-a078-4197c8dcbf59">Download APK</a>
+            (sideloading required; enable unknown sources on Android)
+        </li>
+        <li>
+            <span class="emoji">📂</span>
+            <strong>Code mirror:</strong>
+            <a href="https://github.com/tori2cool/mybuddy-presidential-ai-challenge">GitHub repo</a>
+        </li>
     </ul>
 
-  </div>
+</div>
 </body>
 </html>
